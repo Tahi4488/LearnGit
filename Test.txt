@@ -1,0 +1,102 @@
+
+<body>
+    <div class="features">
+
+        <div class="share-moments">
+            <h2>Connect with Others</h2>
+            <p>Meet other pet owners and share tips</p>
+        </div>
+	
+    </div>
+    <div class="gallery">
+        <h2>Gallery</h2>
+        <div class="media">
+            <img src="path_to_image1.jpg" alt="Pet Image 1">
+
+        </div>
+    </div>
+    <div class="share-button">
+        <a href="/content/pawsconnect/pawsconnect/contact.html"><button>Share</button></a>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+ 
+.features {
+    text-align: center;
+    margin: 20px;
+}
+ 
+.share-moments {
+    background-color: #f0e4e4;
+    padding: 20px;
+    border-radius: 8px;
+}
+ 
+.gallery {
+    margin: 20px;
+    text-align: center;
+}
+ 
+.gallery .media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.gallery .media img, .gallery .media video {
+    max-width: 100%;
+    margin: 10px 0;
+}
+ 
+.share-button {
+    margin: 20px;
+}
+
+.share-button button {
+    background-color: #ff7f7f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+ 
+.share-button button:hover {
+    background-color: #ff4f4f;
+}
+ 
+h1, h2, p {
+    margin: 0;
+    padding: 10px 0;
+}
+ 
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+ 
+h2 {
+    font-size: 1.5em;
+    color: #555;
+}
+ 
+p {
+    font-size: 1em;
+    color: #666;
+}
